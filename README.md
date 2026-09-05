@@ -1,6 +1,8 @@
 # Mountain Rush
 
-Native Windows downhill ATV racing from Vexona Studios. Race five mountains with five ATVs, a garage and upgrade system, a mountain tour and a three-stage championship. Take jumps and alternate lines, dodge timber and rocks, and slide through mud while racing five opponents.
+Native Windows downhill ATV racing from Vexona Studios. Race five tour mountains plus Wildfall, an open mountainside with no roads. Choose from five ATVs, a garage and upgrade system, a mountain tour and a three-stage championship. Take jumps and alternate lines, dodge timber and rocks, and slide through mud while racing five opponents.
+
+**New in 0.4.0:** choose **Wildfall / No Roads** for a 4.45 km descent with a 1,426 metre drop, snow bowls, natural shelves, meadows and pine islands. Pick your own line between wide checkpoint flags. Race the full field or choose Solo Descent. The original mountains also have refreshed timber jump decks and structural detail.
 
 **[Download the latest Windows build](https://github.com/vexonastudios/atv-racing-releases/releases/latest)**
 
