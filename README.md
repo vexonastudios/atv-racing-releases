@@ -1,23 +1,27 @@
-# Mountain Rush
+# FourWheel Rush
 
-Native Windows downhill and stadium ATV racing from Vexona Studios. Race five tour mountains plus Wildfall, an open mountainside with no roads. Choose from five ATVs, a garage and upgrade system, a mountain tour and a three-stage championship. Take jumps and alternate lines, dodge timber and rocks, and slide through mud while racing five opponents.
+ATV racing from Vexona Studios: short stadium laps, dirt jumps, sliding mud and mountain descents. **Mountain Rush is now FourWheel Rush**, starting with version **0.7.1**.
 
-**New in 0.7.0: Stadium Lap Racing.** Choose **Stadium / Lap Racing** on the title screen for **Stadium Sprint** (659 m per lap, two tabletops and eight rollers) or **Mud Bowl** (549 m, two tabletops, four rollers and more mud). Choose **3, 5 or 7 laps**; three-lap races take about 1��2 minutes in automated tests. Race five rivals or practice solo. The lap counter, final-lap announcement and checkered finish make the goal clear. Both circuits also work over LAN.
+**[Download FourWheel Rush for Windows](https://github.com/vexonastudios/atv-racing-releases/releases/latest)**
 
-**Family LAN racing.** Race up to six family members on the same home Wi-Fi or Ethernet network, with optional AI filling empty slots. Choose **LAN Multiplayer → Host a Race** on one computer; the others choose the nearby host or join by its displayed IP address. Choose an ATV, ready up, and let the host start. Both circuits, all six mountains and five stock ATVs are available. The host selects the lap count for stadium races. Everyone needs the same version (currently 0.7.0); if Windows prompts, allow MountainRushGame.exe on private networks. The host must keep the game open. LAN play requires no account or Internet access, and campaign progress stays separate.
+Download `MountainRush-Windows.zip`, extract the entire `MountainRush` folder to a writable location, and run `MountainRush.exe`. Keep it beside `MountainRushGame.exe`. These filenames stay the same so existing automatic updates and BodeeGuard installations continue to work. Windows x64; no Godot installation or GitHub account is needed.
 
-**Short Race** is the default: 2.9–3.2 km road routes and 3.6 km Wildfall, aiming for roughly 2–3 minutes depending on riding and recoveries. Keep the mud, jumps, obstacles, bridges and finish sections with less distance between them. Choose **Full Descent** for the original longer routes; each layout keeps separate personal bests. The LAN host selects the length for everyone.
+## Pick your race
 
-Choose **Wildfall / No Roads** for snow bowls, natural shelves, meadows and pine islands. Pick your own line between wide checkpoint flags. Its optional full descent retains the 4.45 km route and 1,426 metre drop.
+- **Stadium / Lap Racing:** Stadium Sprint (659 m per lap) and Mud Bowl (549 m). Choose **3, 5 or 7 laps**, with hills, tabletops, rhythm jumps and mud. Three-lap automated races take roughly 90–112 seconds. Race five rivals or practice solo.
+- **Mountain Rush / Downhill:** the five-mountain tour, unlockable ATVs and upgrades, medals and a three-stage championship. Short races aim for roughly 2–3 minutes; Full Descent keeps the original longer routes.
+- **Wildfall / No Roads:** an open mountainside race through snow bowls, rocky shelves, meadows and pine islands. Choose your own line between checkpoint flags.
 
-**[Download the latest Windows build](https://github.com/vexonastudios/atv-racing-releases/releases/latest)**
+## Race together
 
-Download `MountainRush-Windows.zip`, extract the entire `MountainRush` folder to a writable location and run `MountainRush.exe`. Keep it beside `MountainRushGame.exe`. Windows x64; Godot and a GitHub account are not required.
+Up to six players can race on the same home Wi-Fi or Ethernet, with optional AI filling empty slots. Choose **LAN Multiplayer → Host a Race** on one PC. Others choose the nearby host or join by its displayed IP address, then select an ATV and ready up. The host chooses the track and lap count or downhill distance. Everyone needs **0.7.1**. Allow `MountainRushGame.exe` on private networks if Windows asks. The host must keep the game open; LAN racing needs no Internet connection or account.
 
-Starting with 0.3.1, automatic updates download in the background and install when you quit. Use **Updates** to check manually, turn automatic updates off, or **Restart & Update** when a download is ready. Older builds need this manual download once. Progress and settings remain in `%APPDATA%\Godot\app_userdata\Mountain Rush`.
+## Existing players
 
-Use W/A/S/D to ride, Space to powerslide, hold R to reset, C to change camera and Escape to open the menu. LAN menus keep the race running and apply your brakes. Full controls, LAN setup and graphics troubleshooting are included in the package README.
+Automatic updates download in the background and install when you quit. Use **Updates → Restart & Update** to restart when the download is ready. Your saves, settings, owned ATVs and records remain at `%APPDATA%\Godot\app_userdata\Mountain Rush`. BodeeGuard manages updates for games launched through its family-game menu.
 
-This is a playable development build. Production rider animation, further art work, campaign depth and wider hardware testing remain in progress. The package includes third-party notices and licenses.
+Use W/A/S/D to ride, Space to powerslide, hold R to reset, C to change camera and Escape to open the menu. Keyboard and controllers are supported. Full instructions, LAN troubleshooting and third-party licenses are included.
 
-This repository contains public downloads and release notes only. The source project is maintained privately in `vexonastudios/atv-racing`. Release assets include a SHA-256 sidecar and a packaged file manifest; automatic updates need no credentials.
+This is a playable development build. Production rider animation, further art work, campaign depth and wider hardware testing remain in progress.
+
+This repository contains public downloads and release notes. Source stays private in `vexonastudios/atv-racing`. Downloads include a SHA-256 sidecar and a per-file manifest; automatic updates need no credentials.
